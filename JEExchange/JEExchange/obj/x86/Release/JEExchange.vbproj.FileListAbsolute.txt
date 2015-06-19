@@ -1,0 +1,12 @@
+D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\bin\Release\JEExchange.exe
+D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\bin\Release\JEExchange.pdb
+D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\bin\Release\JEExchange.xml
+D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Release\JEExchange.frmMain.resources
+D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Release\JEExchange.frmSplash.resources
+D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Release\JEExchange.frmLogin.resources
+D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Release\JEExchange.Resources.resources
+D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Release\JEExchange.vbproj.GenerateResource.Cache
+D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Release\JEExchange.exe
+D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Release\JEExchange.xml
+D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Release\JEExchange.pdb
+D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\bin\Release\JEExchange.exe.config

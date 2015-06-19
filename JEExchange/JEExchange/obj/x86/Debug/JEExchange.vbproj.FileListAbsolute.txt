@@ -1,0 +1,11 @@
+D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\bin\Debug\JEExchange.exe
+D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\bin\Debug\JEExchange.pdb
+D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\bin\Debug\JEExchange.xml
+D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Debug\JEExchange.frmLogin.resources
+D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Debug\JEExchange.Resources.resources
+D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Debug\JEExchange.vbproj.GenerateResource.Cache
+D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Debug\JEExchange.exe
+D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Debug\JEExchange.xml
+D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Debug\JEExchange.pdb
+D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Debug\JEExchange.frmMain.resources
+D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Debug\JEExchange.frmSplash.resources
