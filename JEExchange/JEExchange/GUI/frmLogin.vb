@@ -27,5 +27,6 @@
     Private Sub btnLogin_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnLogin.Click
         Me.Hide()
         frmSplash.Show()
+
     End Sub
 End Class

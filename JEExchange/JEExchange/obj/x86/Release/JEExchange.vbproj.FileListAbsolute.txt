@@ -10,3 +10,15 @@ D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Release\JEExch
 D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Release\JEExchange.xml
 D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Release\JEExchange.pdb
 D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\bin\Release\JEExchange.exe.config
+C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\bin\Release\JEExchange.exe.config
+C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\obj\x86\Release\JEExchange.exe
+C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\obj\x86\Release\JEExchange.xml
+C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\obj\x86\Release\JEExchange.pdb
+C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\bin\Release\JEExchange.exe
+C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\bin\Release\JEExchange.pdb
+C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\bin\Release\JEExchange.xml
+C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\obj\x86\Release\JEExchange.frmMain.resources
+C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\obj\x86\Release\JEExchange.frmSplash.resources
+C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\obj\x86\Release\JEExchange.frmLogin.resources
+C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\obj\x86\Release\JEExchange.Resources.resources
+C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\obj\x86\Release\JEExchange.vbproj.GenerateResource.Cache
