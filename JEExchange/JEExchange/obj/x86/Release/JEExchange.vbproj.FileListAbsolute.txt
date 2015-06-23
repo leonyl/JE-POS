@@ -10,15 +10,54 @@ D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Release\JEExch
 D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Release\JEExchange.xml
 D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Release\JEExchange.pdb
 D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\bin\Release\JEExchange.exe.config
-C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\bin\Release\JEExchange.exe.config
-C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\obj\x86\Release\JEExchange.exe
-C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\obj\x86\Release\JEExchange.xml
-C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\obj\x86\Release\JEExchange.pdb
-C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\bin\Release\JEExchange.exe
-C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\bin\Release\JEExchange.pdb
-C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\bin\Release\JEExchange.xml
-C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\obj\x86\Release\JEExchange.frmMain.resources
-C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\obj\x86\Release\JEExchange.frmSplash.resources
-C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\obj\x86\Release\JEExchange.frmLogin.resources
-C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\obj\x86\Release\JEExchange.Resources.resources
-C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\obj\x86\Release\JEExchange.vbproj.GenerateResource.Cache
+D:\4blits\vb POS\VB_JEExchange\JEExchange\JEExchange\bin\Release\JEExchange.exe.config
+D:\4blits\vb POS\VB_JEExchange\JEExchange\JEExchange\obj\x86\Release\JEExchange.exe
+D:\4blits\vb POS\VB_JEExchange\JEExchange\JEExchange\obj\x86\Release\JEExchange.xml
+D:\4blits\vb POS\VB_JEExchange\JEExchange\JEExchange\obj\x86\Release\JEExchange.pdb
+D:\4blits\vb POS\VB_JEExchange\JEExchange\JEExchange\bin\Release\Data\Exchange.mdf
+D:\4blits\vb POS\VB_JEExchange\JEExchange\JEExchange\bin\Release\Data\Exchange_log.ldf
+D:\4blits\vb POS\VB_JEExchange\JEExchange\JEExchange\bin\Release\JEExchange.exe
+D:\4blits\vb POS\VB_JEExchange\JEExchange\JEExchange\bin\Release\JEExchange.pdb
+D:\4blits\vb POS\VB_JEExchange\JEExchange\JEExchange\bin\Release\JEExchange.xml
+D:\4blits\vb POS\VB_JEExchange\JEExchange\JEExchange\bin\Release\Encrypt.dll
+D:\4blits\vb POS\VB_JEExchange\JEExchange\JEExchange\bin\Release\iCam.dll
+D:\4blits\vb POS\VB_JEExchange\JEExchange\JEExchange\bin\Release\iCam.pdb
+D:\4blits\vb POS\VB_JEExchange\JEExchange\JEExchange\bin\Release\iCam.xml
+D:\4blits\vb POS\VB_JEExchange\JEExchange\JEExchange\obj\x86\Release\JEExchange.vbprojResolveAssemblyReference.cache
+D:\4blits\vb POS\VB_JEExchange\JEExchange\JEExchange\obj\x86\Release\JEExchange.frmMain.resources
+D:\4blits\vb POS\VB_JEExchange\JEExchange\JEExchange\obj\x86\Release\JEExchange.frmSplash.resources
+D:\4blits\vb POS\VB_JEExchange\JEExchange\JEExchange\obj\x86\Release\JEExchange.frmLogin.resources
+D:\4blits\vb POS\VB_JEExchange\JEExchange\JEExchange\obj\x86\Release\JEExchange.Resources.resources
+D:\4blits\vb POS\VB_JEExchange\JEExchange\JEExchange\obj\x86\Release\JEExchange.vbproj.GenerateResource.Cache
+C:\Users\Applicant.User-PC\Desktop\JEExchange\JEExchange\bin\Release\JEExchange.exe.config
+C:\Users\Applicant.User-PC\Desktop\JEExchange\JEExchange\obj\x86\Release\JEExchange.exe
+C:\Users\Applicant.User-PC\Desktop\JEExchange\JEExchange\obj\x86\Release\JEExchange.xml
+C:\Users\Applicant.User-PC\Desktop\JEExchange\JEExchange\obj\x86\Release\JEExchange.pdb
+C:\Users\Applicant.User-PC\Desktop\JEExchange\JEExchange\bin\Release\Data\Exchange.mdf
+C:\Users\Applicant.User-PC\Desktop\JEExchange\JEExchange\bin\Release\Data\Exchange_log.ldf
+C:\Users\Applicant.User-PC\Desktop\JEExchange\JEExchange\bin\Release\JEExchange.exe
+C:\Users\Applicant.User-PC\Desktop\JEExchange\JEExchange\bin\Release\JEExchange.pdb
+C:\Users\Applicant.User-PC\Desktop\JEExchange\JEExchange\bin\Release\JEExchange.xml
+C:\Users\Applicant.User-PC\Desktop\JEExchange\JEExchange\bin\Release\iCam.pdb
+C:\Users\Applicant.User-PC\Desktop\JEExchange\JEExchange\bin\Release\iCam.xml
+C:\Users\Applicant.User-PC\Desktop\JEExchange\JEExchange\obj\x86\Release\JEExchange.vbprojResolveAssemblyReference.cache
+C:\Users\Applicant.User-PC\Desktop\JEExchange\JEExchange\obj\x86\Release\JEExchange.frmMain.resources
+C:\Users\Applicant.User-PC\Desktop\JEExchange\JEExchange\obj\x86\Release\JEExchange.frmSplash.resources
+C:\Users\Applicant.User-PC\Desktop\JEExchange\JEExchange\obj\x86\Release\JEExchange.frmLogin.resources
+C:\Users\Applicant.User-PC\Desktop\JEExchange\JEExchange\obj\x86\Release\JEExchange.Resources.resources
+C:\Users\Applicant.User-PC\Desktop\JEExchange\JEExchange\obj\x86\Release\JEExchange.vbproj.GenerateResource.Cache
+D:\JEExchange\JEExchange\bin\Release\JEExchange.exe.config
+D:\JEExchange\JEExchange\obj\x86\Release\JEExchange.exe
+D:\JEExchange\JEExchange\obj\x86\Release\JEExchange.xml
+D:\JEExchange\JEExchange\obj\x86\Release\JEExchange.pdb
+D:\JEExchange\JEExchange\bin\Release\Data\Exchange.mdf
+D:\JEExchange\JEExchange\bin\Release\Data\Exchange_log.ldf
+D:\JEExchange\JEExchange\bin\Release\JEExchange.exe
+D:\JEExchange\JEExchange\bin\Release\JEExchange.pdb
+D:\JEExchange\JEExchange\bin\Release\JEExchange.xml
+D:\JEExchange\JEExchange\obj\x86\Release\JEExchange.vbprojResolveAssemblyReference.cache
+D:\JEExchange\JEExchange\obj\x86\Release\JEExchange.frmMain.resources
+D:\JEExchange\JEExchange\obj\x86\Release\JEExchange.frmSplash.resources
+D:\JEExchange\JEExchange\obj\x86\Release\JEExchange.frmLogin.resources
+D:\JEExchange\JEExchange\obj\x86\Release\JEExchange.Resources.resources
+D:\JEExchange\JEExchange\obj\x86\Release\JEExchange.vbproj.GenerateResource.Cache

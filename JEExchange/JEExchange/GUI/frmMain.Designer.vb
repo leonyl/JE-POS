@@ -64,11 +64,23 @@ Partial Class frmMain
         Me.ToolStripStatusLabel5 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.timerDate = New System.Windows.Forms.Timer(Me.components)
         Me.panelBuy = New System.Windows.Forms.Panel()
-        Me.btnCustomerDetails = New System.Windows.Forms.Button()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.gbOtherInfo = New System.Windows.Forms.GroupBox()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.buyHeader = New System.Windows.Forms.Panel()
         Me.btnCloseBuy = New System.Windows.Forms.Button()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.lblInfoName = New System.Windows.Forms.Label()
+        Me.btnCustomerDetails = New System.Windows.Forms.Button()
         Me.panelBuySearch = New System.Windows.Forms.Panel()
+        Me.ListView1 = New System.Windows.Forms.ListView()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.txtSearchBuy = New System.Windows.Forms.TextBox()
@@ -107,18 +119,6 @@ Partial Class frmMain
         Me.txtSearch = New System.Windows.Forms.TextBox()
         Me.Panel8 = New System.Windows.Forms.Panel()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.lblInfoName = New System.Windows.Forms.Label()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.gbOtherInfo = New System.Windows.Forms.GroupBox()
-        Me.ListView1 = New System.Windows.Forms.ListView()
         Me.toolMainMenu.SuspendLayout()
         Me.toolSidebar.SuspendLayout()
         Me.PanelUser.SuspendLayout()
@@ -126,6 +126,7 @@ Partial Class frmMain
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.StatusStrip1.SuspendLayout()
         Me.panelBuy.SuspendLayout()
+        Me.GroupBox1.SuspendLayout()
         Me.buyHeader.SuspendLayout()
         Me.panelBuySearch.SuspendLayout()
         Me.Panel1.SuspendLayout()
@@ -157,7 +158,6 @@ Partial Class frmMain
         Me.Panel6.SuspendLayout()
         Me.Panel7.SuspendLayout()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
         'toolMainMenu
@@ -277,21 +277,21 @@ Partial Class frmMain
         '
         Me.BuyToolStripMenuItem1.Image = Global.JEExchange.My.Resources.Resources.buy
         Me.BuyToolStripMenuItem1.Name = "BuyToolStripMenuItem1"
-        Me.BuyToolStripMenuItem1.Size = New System.Drawing.Size(118, 24)
+        Me.BuyToolStripMenuItem1.Size = New System.Drawing.Size(152, 24)
         Me.BuyToolStripMenuItem1.Text = "Buy"
         '
         'SellToolStripMenuItem1
         '
         Me.SellToolStripMenuItem1.Image = Global.JEExchange.My.Resources.Resources.sell
         Me.SellToolStripMenuItem1.Name = "SellToolStripMenuItem1"
-        Me.SellToolStripMenuItem1.Size = New System.Drawing.Size(118, 24)
+        Me.SellToolStripMenuItem1.Size = New System.Drawing.Size(152, 24)
         Me.SellToolStripMenuItem1.Text = "Sell"
         '
         'TradeToolStripMenuItem1
         '
         Me.TradeToolStripMenuItem1.Image = Global.JEExchange.My.Resources.Resources.trade
         Me.TradeToolStripMenuItem1.Name = "TradeToolStripMenuItem1"
-        Me.TradeToolStripMenuItem1.Size = New System.Drawing.Size(118, 24)
+        Me.TradeToolStripMenuItem1.Size = New System.Drawing.Size(152, 24)
         Me.TradeToolStripMenuItem1.Text = "Trade"
         '
         'toolSidebar
@@ -569,28 +569,116 @@ Partial Class frmMain
         Me.panelBuy.Controls.Add(Me.lblInfoName)
         Me.panelBuy.Controls.Add(Me.btnCustomerDetails)
         Me.panelBuy.Controls.Add(Me.panelBuySearch)
-        Me.panelBuy.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.panelBuy.Location = New System.Drawing.Point(0, 66)
+        Me.panelBuy.Location = New System.Drawing.Point(23, 661)
         Me.panelBuy.Name = "panelBuy"
-        Me.panelBuy.Size = New System.Drawing.Size(1250, 685)
+        Me.panelBuy.Size = New System.Drawing.Size(358, 67)
         Me.panelBuy.TabIndex = 7
         Me.panelBuy.Visible = False
         '
-        'btnCustomerDetails
+        'GroupBox1
         '
-        Me.btnCustomerDetails.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.btnCustomerDetails.BackColor = System.Drawing.Color.Transparent
-        Me.btnCustomerDetails.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnCustomerDetails.FlatAppearance.BorderSize = 0
-        Me.btnCustomerDetails.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.btnCustomerDetails.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.btnCustomerDetails.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnCustomerDetails.Image = CType(resources.GetObject("btnCustomerDetails.Image"), System.Drawing.Image)
-        Me.btnCustomerDetails.Location = New System.Drawing.Point(-1, 41)
-        Me.btnCustomerDetails.Name = "btnCustomerDetails"
-        Me.btnCustomerDetails.Size = New System.Drawing.Size(42, 591)
-        Me.btnCustomerDetails.TabIndex = 28
-        Me.btnCustomerDetails.UseVisualStyleBackColor = False
+        Me.GroupBox1.Controls.Add(Me.gbOtherInfo)
+        Me.GroupBox1.Controls.Add(Me.Label12)
+        Me.GroupBox1.Controls.Add(Me.TextBox3)
+        Me.GroupBox1.Controls.Add(Me.Label10)
+        Me.GroupBox1.Controls.Add(Me.TextBox1)
+        Me.GroupBox1.Controls.Add(Me.Label9)
+        Me.GroupBox1.Controls.Add(Me.ComboBox2)
+        Me.GroupBox1.Controls.Add(Me.Label8)
+        Me.GroupBox1.Controls.Add(Me.ComboBox1)
+        Me.GroupBox1.Location = New System.Drawing.Point(325, 89)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(867, 519)
+        Me.GroupBox1.TabIndex = 29
+        Me.GroupBox1.TabStop = False
+        '
+        'gbOtherInfo
+        '
+        Me.gbOtherInfo.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.gbOtherInfo.Location = New System.Drawing.Point(29, 119)
+        Me.gbOtherInfo.Name = "gbOtherInfo"
+        Me.gbOtherInfo.Size = New System.Drawing.Size(801, 368)
+        Me.gbOtherInfo.TabIndex = 41
+        Me.gbOtherInfo.TabStop = False
+        Me.gbOtherInfo.Text = "Other Info"
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Location = New System.Drawing.Point(658, 35)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(54, 18)
+        Me.Label12.TabIndex = 40
+        Me.Label12.Text = "Quatity"
+        '
+        'TextBox3
+        '
+        Me.TextBox3.Font = New System.Drawing.Font("Century Gothic", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox3.Location = New System.Drawing.Point(661, 63)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(169, 26)
+        Me.TextBox3.TabIndex = 39
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(471, 35)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(73, 18)
+        Me.Label10.TabIndex = 36
+        Me.Label10.Text = "Model No"
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Font = New System.Drawing.Font("Century Gothic", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.Location = New System.Drawing.Point(474, 63)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(169, 26)
+        Me.TextBox1.TabIndex = 35
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(236, 35)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(47, 18)
+        Me.Label9.TabIndex = 34
+        Me.Label9.Text = "Brand"
+        '
+        'ComboBox2
+        '
+        Me.ComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.ComboBox2.Font = New System.Drawing.Font("Century Gothic", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox2.FormattingEnabled = True
+        Me.ComboBox2.Items.AddRange(New Object() {"Cell Phones", "Computers"})
+        Me.ComboBox2.Location = New System.Drawing.Point(240, 63)
+        Me.ComboBox2.Name = "ComboBox2"
+        Me.ComboBox2.Size = New System.Drawing.Size(209, 28)
+        Me.ComboBox2.TabIndex = 33
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(23, 35)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(113, 18)
+        Me.Label8.TabIndex = 32
+        Me.Label8.Text = "Select Category"
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.ComboBox1.Font = New System.Drawing.Font("Century Gothic", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Items.AddRange(New Object() {"Cell Phones", "Computers"})
+        Me.ComboBox1.Location = New System.Drawing.Point(27, 63)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(197, 28)
+        Me.ComboBox1.TabIndex = 31
         '
         'buyHeader
         '
@@ -601,7 +689,7 @@ Partial Class frmMain
         Me.buyHeader.Controls.Add(Me.Label4)
         Me.buyHeader.Location = New System.Drawing.Point(0, 0)
         Me.buyHeader.Name = "buyHeader"
-        Me.buyHeader.Size = New System.Drawing.Size(1247, 33)
+        Me.buyHeader.Size = New System.Drawing.Size(355, 33)
         Me.buyHeader.TabIndex = 0
         '
         'btnCloseBuy
@@ -609,7 +697,7 @@ Partial Class frmMain
         Me.btnCloseBuy.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.btnCloseBuy.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnCloseBuy.ForeColor = System.Drawing.Color.White
-        Me.btnCloseBuy.Location = New System.Drawing.Point(1224, 5)
+        Me.btnCloseBuy.Location = New System.Drawing.Point(332, 5)
         Me.btnCloseBuy.Name = "btnCloseBuy"
         Me.btnCloseBuy.Size = New System.Drawing.Size(16, 22)
         Me.btnCloseBuy.TabIndex = 1
@@ -627,6 +715,33 @@ Partial Class frmMain
         Me.Label4.TabIndex = 1
         Me.Label4.Text = "Buy Panel"
         '
+        'lblInfoName
+        '
+        Me.lblInfoName.AutoSize = True
+        Me.lblInfoName.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblInfoName.ForeColor = System.Drawing.Color.FromArgb(CType(CType(52, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(52, Byte), Integer))
+        Me.lblInfoName.Location = New System.Drawing.Point(321, 66)
+        Me.lblInfoName.Name = "lblInfoName"
+        Me.lblInfoName.Size = New System.Drawing.Size(312, 20)
+        Me.lblInfoName.TabIndex = 30
+        Me.lblInfoName.Text = "Jon Greedy    [0112535]   Loyalty: 300"
+        '
+        'btnCustomerDetails
+        '
+        Me.btnCustomerDetails.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.btnCustomerDetails.BackColor = System.Drawing.Color.Transparent
+        Me.btnCustomerDetails.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnCustomerDetails.FlatAppearance.BorderSize = 0
+        Me.btnCustomerDetails.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.btnCustomerDetails.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.btnCustomerDetails.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnCustomerDetails.Image = CType(resources.GetObject("btnCustomerDetails.Image"), System.Drawing.Image)
+        Me.btnCustomerDetails.Location = New System.Drawing.Point(-1, -268)
+        Me.btnCustomerDetails.Name = "btnCustomerDetails"
+        Me.btnCustomerDetails.Size = New System.Drawing.Size(42, 591)
+        Me.btnCustomerDetails.TabIndex = 28
+        Me.btnCustomerDetails.UseVisualStyleBackColor = False
+        '
         'panelBuySearch
         '
         Me.panelBuySearch.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
@@ -636,9 +751,19 @@ Partial Class frmMain
         Me.panelBuySearch.Controls.Add(Me.Panel1)
         Me.panelBuySearch.Location = New System.Drawing.Point(-8, 31)
         Me.panelBuySearch.Name = "panelBuySearch"
-        Me.panelBuySearch.Size = New System.Drawing.Size(286, 654)
+        Me.panelBuySearch.Size = New System.Drawing.Size(286, 36)
         Me.panelBuySearch.TabIndex = 4
         Me.panelBuySearch.Visible = False
+        '
+        'ListView1
+        '
+        Me.ListView1.GridLines = True
+        Me.ListView1.Location = New System.Drawing.Point(31, 58)
+        Me.ListView1.Name = "ListView1"
+        Me.ListView1.Size = New System.Drawing.Size(243, 572)
+        Me.ListView1.TabIndex = 3
+        Me.ListView1.UseCompatibleStateImageBehavior = False
+        Me.ListView1.View = System.Windows.Forms.View.Details
         '
         'Panel1
         '
@@ -769,7 +894,7 @@ Partial Class frmMain
         '
         Me.panelLayaway.BackColor = System.Drawing.Color.Gainsboro
         Me.panelLayaway.Controls.Add(Me.Panel3)
-        Me.panelLayaway.Location = New System.Drawing.Point(640, 597)
+        Me.panelLayaway.Location = New System.Drawing.Point(402, 660)
         Me.panelLayaway.Name = "panelLayaway"
         Me.panelLayaway.Size = New System.Drawing.Size(353, 64)
         Me.panelLayaway.TabIndex = 10
@@ -1039,132 +1164,6 @@ Partial Class frmMain
         Me.PictureBox4.TabIndex = 14
         Me.PictureBox4.TabStop = False
         '
-        'GroupBox1
-        '
-        Me.GroupBox1.Controls.Add(Me.gbOtherInfo)
-        Me.GroupBox1.Controls.Add(Me.Label12)
-        Me.GroupBox1.Controls.Add(Me.TextBox3)
-        Me.GroupBox1.Controls.Add(Me.Label10)
-        Me.GroupBox1.Controls.Add(Me.TextBox1)
-        Me.GroupBox1.Controls.Add(Me.Label9)
-        Me.GroupBox1.Controls.Add(Me.ComboBox2)
-        Me.GroupBox1.Controls.Add(Me.Label8)
-        Me.GroupBox1.Controls.Add(Me.ComboBox1)
-        Me.GroupBox1.Location = New System.Drawing.Point(325, 89)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(867, 519)
-        Me.GroupBox1.TabIndex = 29
-        Me.GroupBox1.TabStop = False
-        '
-        'lblInfoName
-        '
-        Me.lblInfoName.AutoSize = True
-        Me.lblInfoName.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblInfoName.ForeColor = System.Drawing.Color.FromArgb(CType(CType(52, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(52, Byte), Integer))
-        Me.lblInfoName.Location = New System.Drawing.Point(321, 66)
-        Me.lblInfoName.Name = "lblInfoName"
-        Me.lblInfoName.Size = New System.Drawing.Size(312, 20)
-        Me.lblInfoName.TabIndex = 30
-        Me.lblInfoName.Text = "Jon Greedy    [0112535]   Loyalty: 300"
-        '
-        'ComboBox1
-        '
-        Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComboBox1.Font = New System.Drawing.Font("Century Gothic", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"Cell Phones", "Computers"})
-        Me.ComboBox1.Location = New System.Drawing.Point(27, 63)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(197, 28)
-        Me.ComboBox1.TabIndex = 31
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(23, 35)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(113, 18)
-        Me.Label8.TabIndex = 32
-        Me.Label8.Text = "Select Category"
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(236, 35)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(47, 18)
-        Me.Label9.TabIndex = 34
-        Me.Label9.Text = "Brand"
-        '
-        'ComboBox2
-        '
-        Me.ComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComboBox2.Font = New System.Drawing.Font("Century Gothic", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Items.AddRange(New Object() {"Cell Phones", "Computers"})
-        Me.ComboBox2.Location = New System.Drawing.Point(240, 63)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(209, 28)
-        Me.ComboBox2.TabIndex = 33
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Font = New System.Drawing.Font("Century Gothic", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(474, 63)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(169, 26)
-        Me.TextBox1.TabIndex = 35
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(471, 35)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(73, 18)
-        Me.Label10.TabIndex = 36
-        Me.Label10.Text = "Model No"
-        '
-        'Label12
-        '
-        Me.Label12.AutoSize = True
-        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(658, 35)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(54, 18)
-        Me.Label12.TabIndex = 40
-        Me.Label12.Text = "Quatity"
-        '
-        'TextBox3
-        '
-        Me.TextBox3.Font = New System.Drawing.Font("Century Gothic", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(661, 63)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(169, 26)
-        Me.TextBox3.TabIndex = 39
-        '
-        'gbOtherInfo
-        '
-        Me.gbOtherInfo.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.gbOtherInfo.Location = New System.Drawing.Point(29, 119)
-        Me.gbOtherInfo.Name = "gbOtherInfo"
-        Me.gbOtherInfo.Size = New System.Drawing.Size(801, 368)
-        Me.gbOtherInfo.TabIndex = 41
-        Me.gbOtherInfo.TabStop = False
-        Me.gbOtherInfo.Text = "Other Info"
-        '
-        'ListView1
-        '
-        Me.ListView1.GridLines = True
-        Me.ListView1.Location = New System.Drawing.Point(31, 58)
-        Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(243, 572)
-        Me.ListView1.TabIndex = 3
-        Me.ListView1.UseCompatibleStateImageBehavior = False
-        Me.ListView1.View = System.Windows.Forms.View.Details
-        '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1202,6 +1201,8 @@ Partial Class frmMain
         Me.StatusStrip1.PerformLayout()
         Me.panelBuy.ResumeLayout(False)
         Me.panelBuy.PerformLayout()
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
         Me.buyHeader.ResumeLayout(False)
         Me.buyHeader.PerformLayout()
         Me.panelBuySearch.ResumeLayout(False)
@@ -1239,8 +1240,6 @@ Partial Class frmMain
         Me.Panel7.ResumeLayout(False)
         Me.Panel7.PerformLayout()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupBox1.ResumeLayout(False)
-        Me.GroupBox1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
