@@ -15,21 +15,6 @@
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile />
-    <PublishUrl>publish\</PublishUrl>
-    <Install>true</Install>
-    <InstallFrom>Disk</InstallFrom>
-    <UpdateEnabled>false</UpdateEnabled>
-    <UpdateMode>Foreground</UpdateMode>
-    <UpdateInterval>7</UpdateInterval>
-    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
-    <UpdatePeriodically>false</UpdatePeriodically>
-    <UpdateRequired>false</UpdateRequired>
-    <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
-    <UseApplicationTrust>false</UseApplicationTrust>
-    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -67,8 +52,17 @@
     <ApplicationIcon>icon_48x48.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CloudToolkitN6">
+      <HintPath>..\..\VB.NET Components\CloudToolkitN6.dll</HintPath>
+    </Reference>
+    <Reference Include="Divelements.SandRibbon">
+      <HintPath>..\..\VB.NET Components\Divelements.SandRibbon.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="MonthCalendar">
+      <HintPath>..\..\VB.NET Components\MonthCalendar.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
-    <Reference Include="System.configuration" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
@@ -91,11 +85,6 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Data\ExchangeDataSet.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ExchangeDataSet.xsd</DependentUpon>
-    </Compile>
     <Compile Include="GUI\frmMain.Designer.vb">
       <DependentUpon>frmMain.vb</DependentUpon>
     </Compile>
@@ -115,6 +104,18 @@
       <DependentUpon>frmLogin.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="GUI\Sell\frmSellPanel.Designer.vb">
+      <DependentUpon>frmSellPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Sell\frmSellPanel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Sell\frmNonStocked.Designer.vb">
+      <DependentUpon>frmNonStocked.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Sell\frmNonStocked.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -130,8 +131,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Public Class\Encrypt.vb" />
-    <Compile Include="Public Class\PublicVariables.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="GUI\frmMain.resx">
@@ -143,6 +142,12 @@
     <EmbeddedResource Include="GUI\frmLogin.resx">
       <DependentUpon>frmLogin.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Sell\frmSellPanel.resx">
+      <DependentUpon>frmSellPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Sell\frmNonStocked.resx">
+      <DependentUpon>frmNonStocked.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -151,21 +156,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="ClassDiagram1.cd" />
-    <None Include="Data\ExchangeDataSet.xsc">
-      <DependentUpon>ExchangeDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="Data\ExchangeDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>ExchangeDataSet.Designer.vb</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Data\ExchangeDataSet.xss">
-      <DependentUpon>ExchangeDataSet.xsd</DependentUpon>
-    </None>
+    <None Include="App.config" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -189,51 +180,17 @@
     <None Include="Resources\search_items.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Data\Exchange.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Data\ExchangeDataSet.Designer.cs" />
-    <Content Include="Data\Exchange_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>Exchange.mdf</DependentUpon>
-    </Content>
     <Content Include="icon_48x48.ico" />
+    <None Include="Resources\menu_bg.png" />
+    <None Include="Resources\sale.png" />
+    <None Include="Resources\basket.png" />
     <None Include="Resources\Logo2.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="GUI\Custumers\" />
+    <Folder Include="GUI\Customers\" />
   </ItemGroup>
   <ItemGroup>
-    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
-      <Visible>False</Visible>
-      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
-      <Install>true</Install>
-    </BootstrapperPackage>
-    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
-      <Visible>False</Visible>
-      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
-      <Install>false</Install>
-    </BootstrapperPackage>
-    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
-      <Visible>False</Visible>
-      <ProductName>.NET Framework 3.5 SP1</ProductName>
-      <Install>false</Install>
-    </BootstrapperPackage>
-    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.10.0">
-      <Visible>False</Visible>
-      <ProductName>SQL Server 2008 Express</ProductName>
-      <Install>true</Install>
-    </BootstrapperPackage>
-    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
-      <Visible>False</Visible>
-      <ProductName>Windows Installer 3.1</ProductName>
-      <Install>true</Install>
-    </BootstrapperPackage>
-    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
-      <Visible>False</Visible>
-      <ProductName>Windows Installer 4.5</ProductName>
-      <Install>true</Install>
-    </BootstrapperPackage>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

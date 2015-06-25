@@ -25,8 +25,8 @@ Partial Class frmLogin
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmLogin))
         Me.btnLogin = New System.Windows.Forms.Button()
         Me.btnCancel = New System.Windows.Forms.Button()
-        Me.txtbxUsername = New System.Windows.Forms.TextBox()
-        Me.txtbxPassword = New System.Windows.Forms.TextBox()
+        Me.txtUsername = New System.Windows.Forms.TextBox()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'btnLogin
@@ -55,30 +55,30 @@ Partial Class frmLogin
         Me.btnCancel.Text = "CANCEL"
         Me.btnCancel.UseVisualStyleBackColor = False
         '
-        'txtbxUsername
+        'txtUsername
         '
-        Me.txtbxUsername.BackColor = System.Drawing.SystemColors.Control
-        Me.txtbxUsername.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtbxUsername.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtbxUsername.ForeColor = System.Drawing.SystemColors.WindowFrame
-        Me.txtbxUsername.Location = New System.Drawing.Point(157, 174)
-        Me.txtbxUsername.Name = "txtbxUsername"
-        Me.txtbxUsername.Size = New System.Drawing.Size(259, 20)
-        Me.txtbxUsername.TabIndex = 2
-        Me.txtbxUsername.Tag = ""
+        Me.txtUsername.BackColor = System.Drawing.SystemColors.Control
+        Me.txtUsername.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtUsername.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtUsername.ForeColor = System.Drawing.SystemColors.WindowFrame
+        Me.txtUsername.Location = New System.Drawing.Point(157, 174)
+        Me.txtUsername.Name = "txtUsername"
+        Me.txtUsername.Size = New System.Drawing.Size(259, 20)
+        Me.txtUsername.TabIndex = 2
+        Me.txtUsername.Tag = ""
         '
-        'txtbxPassword
+        'TextBox1
         '
-        Me.txtbxPassword.BackColor = System.Drawing.SystemColors.Control
-        Me.txtbxPassword.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtbxPassword.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtbxPassword.ForeColor = System.Drawing.SystemColors.WindowFrame
-        Me.txtbxPassword.Location = New System.Drawing.Point(157, 227)
-        Me.txtbxPassword.Name = "txtbxPassword"
-        Me.txtbxPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.txtbxPassword.Size = New System.Drawing.Size(259, 20)
-        Me.txtbxPassword.TabIndex = 3
-        Me.txtbxPassword.Tag = ""
+        Me.TextBox1.BackColor = System.Drawing.SystemColors.Control
+        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.ForeColor = System.Drawing.SystemColors.WindowFrame
+        Me.TextBox1.Location = New System.Drawing.Point(157, 227)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
+        Me.TextBox1.Size = New System.Drawing.Size(259, 20)
+        Me.TextBox1.TabIndex = 3
+        Me.TextBox1.Tag = ""
         '
         'frmLogin
         '
@@ -87,8 +87,8 @@ Partial Class frmLogin
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.ClientSize = New System.Drawing.Size(501, 333)
-        Me.Controls.Add(Me.txtbxPassword)
-        Me.Controls.Add(Me.txtbxUsername)
+        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txtUsername)
         Me.Controls.Add(Me.btnCancel)
         Me.Controls.Add(Me.btnLogin)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
@@ -102,7 +102,7 @@ Partial Class frmLogin
     End Sub
     Friend WithEvents btnLogin As System.Windows.Forms.Button
     Friend WithEvents btnCancel As System.Windows.Forms.Button
-    Friend WithEvents txtbxUsername As System.Windows.Forms.TextBox
-    Friend WithEvents txtbxPassword As System.Windows.Forms.TextBox
+    Friend WithEvents txtUsername As System.Windows.Forms.TextBox
+    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
 
 End Class

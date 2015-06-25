@@ -6,11 +6,7 @@ JEExchange
 </name>
 </assembly>
 <members>
-<member name="T:JEExchange.ExchangeDataSet">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="P:JEExchange.My.Resources.Resources.ResourceManager">
+<member name="P:JEExchange.My.Resources.Resources.ResourceManager">
 	<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>
@@ -18,6 +14,10 @@ Represents a strongly typed in-memory cache of data.
 	<summary>
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:JEExchange.My.Resources.Resources.basket">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:JEExchange.My.Resources.Resources.buy">
 	<summary>
@@ -31,11 +31,19 @@ Represents a strongly typed in-memory cache of data.
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:JEExchange.My.Resources.Resources.menu_bg">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:JEExchange.My.Resources.Resources.order">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:JEExchange.My.Resources.Resources.quote">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:JEExchange.My.Resources.Resources.sale">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
