@@ -1,5 +1,7 @@
 ﻿Public Class frmMain
 
+    'Dim buyItemCounter, buySellCounter As Integer
+
     Private Sub ToolStripButton4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ToolStripButton4.Click
         End
     End Sub
@@ -23,50 +25,13 @@
         btnShowUser.Visible = True
     End Sub
 
-    Private Sub btnSBBuy_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        panelBuy.Visible = True
-        panelBuy.Dock = DockStyle.Fill
-        panelBuy.BringToFront()
-    End Sub
-
-    Private Sub btnSBSell_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        panelSell.Visible = True
-        panelSell.Dock = DockStyle.Fill
-        panelSell.BringToFront()
-    End Sub
-
-    Private Sub btnCloseSell_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCloseSell.Click
-        panelSell.Visible = False
-    End Sub
-
-    Private Sub btnCloseTrade_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCloseTrade.Click
-        panelTrade.Visible = False
-    End Sub
-
-    Private Sub btnSBTrade_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        panelTrade.Visible = True
-        panelTrade.Dock = DockStyle.Fill
-        panelTrade.BringToFront()
-    End Sub
-
-    Private Sub btnSBLayaway_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        panelLayaway.Visible = True
-        panelLayaway.Dock = DockStyle.Fill
-        panelLayaway.BringToFront()
-    End Sub
-
-    Private Sub btnCloseLayaway_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCloseLayaway.Click
-        panelLayaway.Visible = False
-    End Sub
 
     Private Sub btnHSBuy_MouseHover(ByVal sender As Object, ByVal e As System.EventArgs) Handles btnHSBuy.MouseHover
         btnHSBuy.Visible = False
     End Sub
 
     Private Sub btnHSBuy2_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles btnHSBuy2.Click
-        panelBuy.Visible = True
-        panelBuy.Dock = DockStyle.Fill
-        panelBuy.BringToFront()
+        frmBuyPanel.Show()
     End Sub
 
     Private Sub btnHSBuy2_MouseLeave(ByVal sender As Object, ByVal e As System.EventArgs) Handles btnHSBuy2.MouseLeave
@@ -78,9 +43,6 @@
     End Sub
 
     Private Sub btnHSSell2_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles btnHSSell2.Click
-        panelHSMenus.Visible = False
-        panelHSLiveSearch.Visible = False
-        frmSellPanel.MdiParent = Me
         frmSellPanel.Show()
     End Sub
 
@@ -125,9 +87,6 @@
     End Sub
 
     Private Sub btnHSQuote2_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles btnHSQuote2.Click
-        panelQuote.Visible = True
-        panelQuote.Dock = DockStyle.Fill
-        panelQuote.BringToFront()
     End Sub
 
     Private Sub btnHSQuote2_MouseLeave(ByVal sender As Object, ByVal e As System.EventArgs) Handles btnHSQuote2.MouseLeave
@@ -151,20 +110,12 @@
     End Sub
 
     Private Sub btnCustomerDetails_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        panelBuySearch.Visible = True
-        btnCusBuyPanel.Visible = False
-        boxBuyForm.Location = New Point(306, 51)
     End Sub
 
     Private Sub txtSearchBuy_Click(ByVal sender As Object, ByVal e As System.EventArgs)
-        txtSearchBuy.Text = ""
     End Sub
 
     Private Sub panelBuy_Click(ByVal sender As Object, ByVal e As System.EventArgs)
-        txtSearchBuy.Text = "Search Customer"
-        panelBuySearch.Visible = False
-        btnCusBuyPanel.Visible = True
-        boxBuyForm.Location = New Point(79, 51)
     End Sub
 
     Private Sub onMPC_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles onMPC.Click
@@ -187,6 +138,7 @@
         offOPC.Visible = False
     End Sub
 
+
     Private Sub onACC_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles onACC.Click
         onACC.Visible = False
         offACC.Visible = True
@@ -197,114 +149,126 @@
         offACC.Visible = False
     End Sub
 
-    Private Sub btnShowCusSell_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnShowCusSell.Click
-        panelSearchSell.Visible = True
-        btnShowCusSell.Visible = False
-        boxSellForm.Location = New Point(306, 51)
+    Private Sub toolCustomers_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles toolCustomers.Click
+        frmCustomers.Show()
     End Sub
 
-    Private Sub panelSell_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles panelSell.Click
-        txtSearchBuy.Text = "Search Customer"
-        panelSearchSell.Visible = False
-        btnShowCusSell.Visible = True
-        boxSellForm.Location = New Point(79, 51)
+#Region "Live Search Filter"
+#Region "Accessories Button"
+    Private Sub onACC_MouseHover(ByVal sender As Object, ByVal e As System.EventArgs) Handles onACC.MouseHover
+        onACC.Location = New Point(348, 72)
     End Sub
 
-    Private Sub onSellSO_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles onSellSO.Click
-        offSellSO.Visible = True
-        onSellSO.Visible = False
+    Private Sub onACC_MouseLeave(ByVal sender As Object, ByVal e As System.EventArgs) Handles onACC.MouseLeave
+        onACC.Location = New Point(348, 71)
     End Sub
 
-    Private Sub offSellSO_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles offSellSO.Click
-        offSellSO.Visible = False
-        onSellSO.Visible = True
+    Private Sub offACC_MouseHover(ByVal sender As Object, ByVal e As System.EventArgs) Handles offACC.MouseHover
+        offACC.Location = New Point(348, 72)
     End Sub
 
-    Private Sub onSellDiscounts_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles onSellDiscounts.Click
-        offSellDiscounts.Visible = True
-        onSellDiscounts.Visible = False
+    Private Sub offACC_MouseLeave(ByVal sender As Object, ByVal e As System.EventArgs) Handles offACC.MouseLeave
+        offACC.Location = New Point(348, 71)
+    End Sub
+#End Region
+#Region "MPC Button"
+    Private Sub onMPC_MouseHover(ByVal sender As Object, ByVal e As System.EventArgs) Handles onMPC.MouseHover
+        onMPC.Location = New Point(495, 72)
     End Sub
 
-    Private Sub offSellDiscounts_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles offSellDiscounts.Click
-        offSellDiscounts.Visible = False
-        onSellDiscounts.Visible = True
+    Private Sub onMPC_MouseLeave(ByVal sender As Object, ByVal e As System.EventArgs) Handles onMPC.MouseLeave
+        onMPC.Location = New Point(495, 71)
     End Sub
 
-    Private Sub onSellCoupons_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles onSellCoupons.Click
-        offSellCoupons.Visible = True
-        onSellCoupons.Visible = False
+    Private Sub offMPC_MouseHover(ByVal sender As Object, ByVal e As System.EventArgs) Handles offMPC.MouseHover
+        offMPC.Location = New Point(495, 72)
     End Sub
 
-    Private Sub offSellCoupons_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles offSellCoupons.Click
-        offSellCoupons.Visible = False
-        onSellCoupons.Visible = True
+    Private Sub offMPC_MouseLeave(ByVal sender As Object, ByVal e As System.EventArgs) Handles offMPC.MouseLeave
+        offMPC.Location = New Point(495, 71)
+    End Sub
+#End Region
+#Region "OPC Button"
+    Private Sub onOPC_MouseHover(ByVal sender As Object, ByVal e As System.EventArgs) Handles onOPC.MouseHover
+        onOPC.Location = New Point(629, 72)
     End Sub
 
-    Private Sub txtSearchSell_Click(ByVal sender As Object, ByVal e As System.EventArgs)
-        txtSearchSell.Text = ""
+    Private Sub onOPC_MouseLeave(ByVal sender As Object, ByVal e As System.EventArgs) Handles onOPC.MouseLeave
+        onOPC.Location = New Point(629, 71)
     End Sub
 
-    Private Sub txtTotal_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles txtTotal.Click
-        If MessageBox.Show("Are you sure you want to edit the price?", "Message", MessageBoxButtons.YesNo, MessageBoxIcon.Information) = vbYes Then
-            txtTotal.ReadOnly = False
-            txtTotal.Focus()
+    Private Sub offOPC_MouseHover(ByVal sender As Object, ByVal e As System.EventArgs) Handles offOPC.MouseHover
+        offOPC.Location = New Point(629, 72)
+    End Sub
+
+    Private Sub ooffOPC_MouseLeave(ByVal sender As Object, ByVal e As System.EventArgs) Handles offOPC.MouseLeave
+        offOPC.Location = New Point(629, 71)
+    End Sub
+#End Region
+#End Region
+
+
+    Private Sub btnHSBuy_Click(sender As System.Object, e As System.EventArgs) Handles btnHSBuy.Click
+
+        PublicVariables.buyCounter += 1
+
+        If (PublicVariables.buyCounter = 1) Then
+            Dim buyItem1 As New frmBuyPanel
+            buyItem1.TopMost = True
+            buyItem1.Show()
+        ElseIf (PublicVariables.buyCounter = 2) Then
+            Dim buyItem2 As New frmBuyPanel
+            buyItem2.TopMost = True
+            buyItem2.Show()
+        ElseIf (PublicVariables.buyCounter = 3) Then
+            Dim buyItem3 As New frmBuyPanel
+            buyItem3.TopMost = True
+            buyItem3.Show()
+        ElseIf (PublicVariables.buyCounter = 4) Then
+            Dim buyItem4 As New frmBuyPanel
+            buyItem4.TopMost = True
+            buyItem4.Show()
+        ElseIf (PublicVariables.buyCounter = 5) Then
+            Dim buyItem5 As New frmBuyPanel
+            buyItem5.TopMost = True
+            buyItem5.Show()
         Else
-            txtTotal.ReadOnly = True
-            btnSell.Focus()
+            PublicVariables.buyCounter -= 1
         End If
+           
     End Sub
 
+    Private Sub btnHSSell_Click(sender As System.Object, e As System.EventArgs) Handles btnHSSell.Click
 
-    Private Sub onSellReminders_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles onSellReminders.Click
-        offSellReminders.Visible = True
-        onSellReminders.Visible = False
+        PublicVariables.sellCounter += 1
+
+        If (PublicVariables.sellCounter = 1) Then
+            Dim sellItem1 As New frmSellPanel
+            sellItem1.TopMost = True
+            sellItem1.Show()
+        ElseIf (PublicVariables.sellCounter = 2) Then
+            Dim sellItem2 As New frmSellPanel
+            sellItem2.TopMost = True
+            sellItem2.Show()
+        ElseIf (PublicVariables.sellCounter = 3) Then
+            Dim sellItem3 As New frmSellPanel
+            sellItem3.TopMost = True
+            sellItem3.Show()
+        ElseIf (PublicVariables.sellCounter = 4) Then
+            Dim sellItem4 As New frmSellPanel
+            sellItem4.TopMost = True
+            sellItem4.Show()
+        ElseIf (PublicVariables.sellCounter = 5) Then
+            Dim sellItem5 As New frmSellPanel
+            sellItem5.TopMost = True
+            sellItem5.Show()
+        Else
+            PublicVariables.sellCounter -= 1
+        End If
+
     End Sub
 
-    Private Sub offSellReminders_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles offSellReminders.Click
-        offSellReminders.Visible = False
-        onSellReminders.Visible = True
+    Private Sub menuUserMgt_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles menuUserMgt.Click
+        frmUserMgt.Show()
     End Sub
-
-    Private Sub btnNonStocked_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnNonStocked.Click
-        frmNonStocked.ShowDialog()
-    End Sub
-
-    Private Sub btnCloseQuote_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCloseQuote.Click
-        panelQuote.Visible = False
-    End Sub
-
-    Private Sub ToolStripButton9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        panelQuote.Visible = True
-        panelQuote.Dock = DockStyle.Fill
-        panelQuote.BringToFront()
-    End Sub
-
-    Private Sub btnCloseBuy_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCloseBuy.Click
-        panelBuy.Visible = False
-    End Sub
-
-    Private Sub btnCusBuyPanel_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCusBuyPanel.Click
-        panelBuySearch.Visible = True
-        btnCusBuyPanel.Visible = False
-        boxBuyForm.Location = New Point(306, 51)
-    End Sub
-
-    Private Sub boxBuyForm_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles boxBuyForm.Click
-        panelBuySearch.Visible = False
-        btnCusBuyPanel.Visible = True
-        boxBuyForm.Location = New Point(79, 51)
-    End Sub
-
-    Private Sub btnHideCusDetails_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnHideCusDetails.Click
-        panelSellCusDetails.Visible = False
-        btnShowCusSell.Visible = True
-        boxSellForm.Location = New Point(79, 51)
-    End Sub
-
-    Private Sub btnVDetails_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnVDetails.Click
-        panelSellCusDetails.Visible = True
-        panelSearchSell.Visible = False
-        boxSellForm.Location = New Point(-142, 51)
-    End Sub
-
 End Class

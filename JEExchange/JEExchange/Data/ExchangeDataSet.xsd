@@ -4,7 +4,7 @@
     <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
       <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
         <Connections>
-          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ExchangeConnectionString" IsAppSettingsProperty="true" Modifier="Assembly" Name="ExchangeConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.JEExchange.Settings.GlobalReference.Default.ExchangeConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ExchangeConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ExchangeConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.JEExchange.My.MySettings.GlobalReference.Default.ExchangeConnectionString" Provider="System.Data.SqlClient" />
         </Connections>
         <Tables />
         <Sources />

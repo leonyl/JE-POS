@@ -1,18 +1,19 @@
-D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\bin\Release\JEExchange.exe
-D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\bin\Release\JEExchange.pdb
-D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\bin\Release\JEExchange.xml
-D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Release\JEExchange.frmMain.resources
-D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Release\JEExchange.frmSplash.resources
-D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Release\JEExchange.frmLogin.resources
-D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Release\JEExchange.Resources.resources
-D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Release\JEExchange.vbproj.GenerateResource.Cache
-D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Release\JEExchange.exe
-D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Release\JEExchange.xml
-D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Release\JEExchange.pdb
-D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\bin\Release\JEExchange.exe.config
-D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Release\JEExchange.frmNonStocked.resources
-D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\bin\Release\CloudToolkitN6.dll
-D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\bin\Release\Divelements.SandRibbon.dll
-D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\bin\Release\MonthCalendar.dll
-D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Release\JEExchange.vbprojResolveAssemblyReference.cache
-D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Release\JEExchange.frmSellPanel.resources
+C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\bin\Release\JEExchange.exe.config
+C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\bin\Release\Data\Exchange.mdf
+C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\bin\Release\Data\Exchange_log.ldf
+C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\bin\Release\JEExchange.exe
+C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\bin\Release\JEExchange.pdb
+C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\bin\Release\JEExchange.xml
+C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\obj\x86\Release\JEExchange.frmBuyPanel.resources
+C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\obj\x86\Release\JEExchange.frmCustomers.resources
+C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\obj\x86\Release\JEExchange.frmMain.resources
+C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\obj\x86\Release\JEExchange.frmSplash.resources
+C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\obj\x86\Release\JEExchange.frmLogin.resources
+C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\obj\x86\Release\JEExchange.frmNonStocked.resources
+C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\obj\x86\Release\JEExchange.frmSellPanel.resources
+C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\obj\x86\Release\JEExchange.frmUserMgt.resources
+C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\obj\x86\Release\JEExchange.Resources.resources
+C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\obj\x86\Release\JEExchange.vbproj.GenerateResource.Cache
+C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\obj\x86\Release\JEExchange.exe
+C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\obj\x86\Release\JEExchange.xml
+C:\Users\Applicant.User-PC\Desktop\POS\JE-POS\JEExchange\JEExchange\obj\x86\Release\JEExchange.pdb

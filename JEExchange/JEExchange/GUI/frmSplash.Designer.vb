@@ -32,18 +32,23 @@ Partial Class frmSplash
         '
         'ProgressBar1
         '
-        Me.ProgressBar1.Location = New System.Drawing.Point(80, 253)
+        Me.ProgressBar1.Location = New System.Drawing.Point(60, 158)
+        Me.ProgressBar1.MarqueeAnimationSpeed = 50
         Me.ProgressBar1.Name = "ProgressBar1"
-        Me.ProgressBar1.Size = New System.Drawing.Size(338, 13)
+        Me.ProgressBar1.Size = New System.Drawing.Size(389, 98)
+        Me.ProgressBar1.Step = 1
+        Me.ProgressBar1.Style = System.Windows.Forms.ProgressBarStyle.Continuous
         Me.ProgressBar1.TabIndex = 0
         '
         'lblProgress
         '
         Me.lblProgress.AutoSize = True
         Me.lblProgress.BackColor = System.Drawing.Color.Transparent
-        Me.lblProgress.Location = New System.Drawing.Point(173, 271)
+        Me.lblProgress.Font = New System.Drawing.Font("Century Gothic", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblProgress.ForeColor = System.Drawing.Color.LightSlateGray
+        Me.lblProgress.Location = New System.Drawing.Point(122, 281)
         Me.lblProgress.Name = "lblProgress"
-        Me.lblProgress.Size = New System.Drawing.Size(182, 13)
+        Me.lblProgress.Size = New System.Drawing.Size(276, 20)
         Me.lblProgress.TabIndex = 1
         Me.lblProgress.Text = "System is now loading please wait....."
         '

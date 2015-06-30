@@ -6,7 +6,11 @@ JEExchange
 </name>
 </assembly>
 <members>
-<member name="P:JEExchange.My.Resources.Resources.ResourceManager">
+<member name="T:JEExchange.ExchangeDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="P:JEExchange.My.Resources.Resources.ResourceManager">
 	<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>
@@ -15,11 +19,23 @@ JEExchange
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
+</member><member name="P:JEExchange.My.Resources.Resources.basket">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:JEExchange.My.Resources.Resources.buy">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:JEExchange.My.Resources.Resources.layaway">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:JEExchange.My.Resources.Resources.Logo2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:JEExchange.My.Resources.Resources.menu_bg">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -31,11 +47,23 @@ JEExchange
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:JEExchange.My.Resources.Resources.sale">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:JEExchange.My.Resources.Resources.search_items">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:JEExchange.My.Resources.Resources.sell">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:JEExchange.My.Resources.Resources.toggle_off">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:JEExchange.My.Resources.Resources.toggle_on">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

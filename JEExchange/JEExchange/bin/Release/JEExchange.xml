@@ -6,7 +6,11 @@ JEExchange
 </name>
 </assembly>
 <members>
-<member name="P:JEExchange.My.Resources.Resources.ResourceManager">
+<member name="T:JEExchange.ExchangeDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="P:JEExchange.My.Resources.Resources.ResourceManager">
 	<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>
@@ -52,6 +56,14 @@ JEExchange
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:JEExchange.My.Resources.Resources.sell">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:JEExchange.My.Resources.Resources.toggle_off">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:JEExchange.My.Resources.Resources.toggle_on">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

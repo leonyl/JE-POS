@@ -1,11 +1,19 @@
-D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\bin\Debug\JEExchange.exe
-D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\bin\Debug\JEExchange.pdb
-D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\bin\Debug\JEExchange.xml
-D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Debug\JEExchange.frmLogin.resources
-D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Debug\JEExchange.Resources.resources
-D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Debug\JEExchange.vbproj.GenerateResource.Cache
-D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Debug\JEExchange.exe
-D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Debug\JEExchange.xml
-D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Debug\JEExchange.pdb
-D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Debug\JEExchange.frmMain.resources
-D:\My Projects\VB.NET\JEExchange_VB\JEExchange\JEExchange\obj\x86\Debug\JEExchange.frmSplash.resources
+C:\Users\Applicant.User-PC\Desktop\POS\JE-NEW\JEExchange\bin\Debug\JEExchange.exe.config
+C:\Users\Applicant.User-PC\Desktop\POS\JE-NEW\JEExchange\bin\Debug\Data\Exchange.mdf
+C:\Users\Applicant.User-PC\Desktop\POS\JE-NEW\JEExchange\bin\Debug\Data\Exchange_log.ldf
+C:\Users\Applicant.User-PC\Desktop\POS\JE-NEW\JEExchange\bin\Debug\JEExchange.exe
+C:\Users\Applicant.User-PC\Desktop\POS\JE-NEW\JEExchange\bin\Debug\JEExchange.pdb
+C:\Users\Applicant.User-PC\Desktop\POS\JE-NEW\JEExchange\bin\Debug\JEExchange.xml
+C:\Users\Applicant.User-PC\Desktop\POS\JE-NEW\JEExchange\obj\x86\Debug\JEExchange.frmBuyPanel.resources
+C:\Users\Applicant.User-PC\Desktop\POS\JE-NEW\JEExchange\obj\x86\Debug\JEExchange.frmCustomers.resources
+C:\Users\Applicant.User-PC\Desktop\POS\JE-NEW\JEExchange\obj\x86\Debug\JEExchange.frmMain.resources
+C:\Users\Applicant.User-PC\Desktop\POS\JE-NEW\JEExchange\obj\x86\Debug\JEExchange.frmSplash.resources
+C:\Users\Applicant.User-PC\Desktop\POS\JE-NEW\JEExchange\obj\x86\Debug\JEExchange.frmLogin.resources
+C:\Users\Applicant.User-PC\Desktop\POS\JE-NEW\JEExchange\obj\x86\Debug\JEExchange.frmNonStocked.resources
+C:\Users\Applicant.User-PC\Desktop\POS\JE-NEW\JEExchange\obj\x86\Debug\JEExchange.frmSellPanel.resources
+C:\Users\Applicant.User-PC\Desktop\POS\JE-NEW\JEExchange\obj\x86\Debug\JEExchange.Resources.resources
+C:\Users\Applicant.User-PC\Desktop\POS\JE-NEW\JEExchange\obj\x86\Debug\JEExchange.vbproj.GenerateResource.Cache
+C:\Users\Applicant.User-PC\Desktop\POS\JE-NEW\JEExchange\obj\x86\Debug\JEExchange.exe
+C:\Users\Applicant.User-PC\Desktop\POS\JE-NEW\JEExchange\obj\x86\Debug\JEExchange.xml
+C:\Users\Applicant.User-PC\Desktop\POS\JE-NEW\JEExchange\obj\x86\Debug\JEExchange.pdb
+C:\Users\Applicant.User-PC\Desktop\POS\JE-NEW\JEExchange\obj\x86\Debug\JEExchange.frmUserMgt.resources

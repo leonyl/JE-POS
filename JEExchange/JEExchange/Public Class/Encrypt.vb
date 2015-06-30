@@ -1,6 +1,7 @@
 ﻿Imports Microsoft.VisualBasic
 Imports System.Security.Cryptography
 Imports System.Text
+
 Public Class Encrypt
     Public Function Encrypt(ByVal Data As String) As String
         Dim shaM As New SHA1Managed
